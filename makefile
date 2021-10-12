@@ -2,8 +2,7 @@
 test:
 	PYTHONPATH=. pytest
 build:
-	python -m build --sdist
-	python -m build --wheel
+	python -m build
 	twine check dist/*
 test-upload:
 	twine upload --repository testpypi dist/*
