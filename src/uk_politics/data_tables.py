@@ -16,7 +16,7 @@ def data_path(filename: str) -> str:
     Returns:
         path (str): The full path to the file.
     """
-    return os.path.join(os.path.dirname(__file__), os.pardir, "data", filename)
+    return os.path.join(os.path.dirname(__file__), "data", filename)
 
 
 def test_data_file(short_name: str) -> None:
