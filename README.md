@@ -89,7 +89,7 @@ and then use fuzzy matching the rest of the way.
 The nicknames are stored in `/src/data/party_nicknames.csv` so you can easily add to or alter them, 
 and `null` values pass straight through as `None` .
 
-## Searching election data
+### Searching election data
 
 The House of Commons has [released historic election data](https://commonslibrary.parliament.uk/research-briefings/cbp-8647/)
 which we have transformed and included as `/src/data/GE_results.tsv` , 
