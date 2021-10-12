@@ -86,7 +86,7 @@ How does this work?
 We have compiled a list of nicknames we've observed
 across platforms, websites, and data providers, 
 and then use fuzzy matching the rest of the way.
-The nicknames are stored in `/src/data/party_nicknames.csv` so you can easily add to or alter them, 
+The nicknames are stored in `/src/uk_politcs/data/party_nicknames.csv` so you can easily add to or alter them, 
 and `null` values pass straight through as `None` .
 
 ### Searching election data
