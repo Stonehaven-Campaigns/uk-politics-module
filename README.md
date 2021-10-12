@@ -92,7 +92,7 @@ and `null` values pass straight through as `None` .
 ## Searching election data
 
 The House of Commons has [released historic election data](https://commonslibrary.parliament.uk/research-briefings/cbp-8647/)
-to which we have transformed in `/src/data/GE_results.tsv` , 
+which we have transformed and included as `/src/data/GE_results.tsv` , 
 and created some tools to allow for filtering by region, country, date, etc..
 If you want to see every seat and winning party in the most recent election just run:
 
